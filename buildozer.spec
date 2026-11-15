@@ -7,7 +7,7 @@ source.include_exts = py,png,json
 source.exclude_dirs = .github, bin, .buildozer, __pycache__
 source.exclude_patterns = generer_emojis.py
 version = 3.0
-requirements = python3,kivy==2.3.0,plyer,pyjnius
+requirements = python3==3.11.5,hostpython3==3.11.5,kivy==2.3.0,plyer,pyjnius
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
